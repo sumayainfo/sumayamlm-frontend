@@ -74,8 +74,8 @@ const SuperAdminDashboard = ({ userData }) => {
               <div className="col-12 col-lg-3 col-md-3 col-sm-12">
                 <div className="theme-card">
                   <div>
-                    <h2 style={{ color: "white" }}>$0</h2>
-                    <p style={{ color: "white" }}>Total Business</p>
+                    <h2 style={{ color: "black" }}>₹ {totalData?.parents?.parents?.length}</h2>
+                    <p style={{ color: "black" }}>Total Business</p>
                   </div>
                   <div className="dash-img-back-mini d-flex justify-content-center mb-3 mt-2">
                     <Icon
@@ -91,8 +91,8 @@ const SuperAdminDashboard = ({ userData }) => {
               <div className="col-12 col-lg-3 col-md-3 col-sm-12">
                 <div className="theme-card">
                   <div>
-                    <h2 style={{ color: "white" }}>$0</h2>
-                    <p style={{ color: "white" }}>Total Income </p>
+                    <h2 style={{ color: "black" }}>₹ {applicationData?.length}</h2>
+                    <p style={{ color: "black" }}>Total Income </p>
                   </div>
                   <div className="dash-img-back-mini d-flex justify-content-center mb-3 mt-2">
                     <Icon
@@ -108,8 +108,8 @@ const SuperAdminDashboard = ({ userData }) => {
               <div className="col-12 col-lg-3 col-md-3 col-sm-12">
                 <div className="theme-card">
                   <div>
-                    <h2 style={{ color: "white" }}>$0</h2>
-                    <p style={{ color: "white" }}>Direct Income </p>
+                    <h2 style={{ color: "black" }}>₹ {totalData?.testimonial?.testimonials?.length}</h2>
+                    <p style={{ color: "black" }}>Direct Income </p>
                   </div>
                   <div className="dash-img-back-mini d-flex justify-content-center mb-3 mt-2">
                     <Icon
@@ -125,77 +125,8 @@ const SuperAdminDashboard = ({ userData }) => {
               <div className="col-12 col-lg-3 col-md-3 col-sm-12">
                 <div className="theme-card">
                   <div>
-                    <h2 style={{ color: "white" }}>$0</h2>
-                    <p style={{ color: "white" }}>Level Income </p>
-                  </div>
-                  <div className="dash-img-back-mini d-flex justify-content-center mb-3 mt-2">
-                    <Icon
-                      icon="bi:chat-left-quote-fill"
-                      width="40"
-                      height="40"
-                      style={{ color: "var(--text-color)" }}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-12 col-lg-3 col-md-3 col-sm-12">
-                <div className="theme-card">
-                  <div>
-                    <h2 style={{ color: "white" }}>$0</h2>
-                    <p style={{ color: "white" }}>Total Business</p>
-                  </div>
-                  <div className="dash-img-back-mini d-flex justify-content-center mb-3 mt-2">
-                    <Icon
-                      icon="flowbite:chart-mixed-dollar-solid"
-                      width="50"
-                      height="50"
-                      style={{ color: "var(--text-color)" }}
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-lg-3 col-md-3 col-sm-12">
-                <div className="theme-card">
-                  <div>
-                    <h2 style={{ color: "white" }}>$0</h2>
-                    <p style={{ color: "white" }}>Total Income </p>
-                  </div>
-                  <div className="dash-img-back-mini d-flex justify-content-center mb-3 mt-2">
-                    <Icon
-                      icon="fa6-solid:sack-dollar"
-                      width="40"
-                      height="40"
-                      style={{ color: "var(--text-color)" }}
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-lg-3 col-md-3 col-sm-12">
-                <div className="theme-card">
-                  <div>
-                    <h2 style={{ color: "white" }}>$0</h2>
-                    <p style={{ color: "white" }}>Direct Income </p>
-                  </div>
-                  <div className="dash-img-back-mini d-flex justify-content-center mb-3 mt-2">
-                    <Icon
-                      icon="fa6-solid:hand-holding-dollar"
-                      width="40"
-                      height="40"
-                      style={{ color: "var(--text-color)" }}
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-12 col-lg-3 col-md-3 col-sm-12">
-                <div className="theme-card">
-                  <div>
-                    <h2 style={{ color: "white" }}>$0</h2>
-                    <p style={{ color: "white" }}>Level Income </p>
+                    <h2 style={{ color: "black" }}>₹ {totalData?.testimonial?.testimonials?.length}</h2>
+                    <p style={{ color: "black" }}>Level Income </p>
                   </div>
                   <div className="dash-img-back-mini d-flex justify-content-center mb-3 mt-2">
                     <Icon

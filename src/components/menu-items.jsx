@@ -14,8 +14,8 @@ const menuItems = [
     showTo: ["Admin", "User"],
     subMenu: [
       { title: "Profile", url: "/profile", icon: <Icon icon="lets-icons:user-circle" width="25"  height="25" /> },
-      { title: "Account Setting", url: "/account-setting", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
-      { title: "Change Password", url: "/change-password", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
+      // { title: "Account Setting", url: "/account-setting", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
+      // { title: "Change Password", url: "/change-password", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
     ],
   },
 

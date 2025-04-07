@@ -178,7 +178,7 @@ const TreeView = () => {
               />
               <Link to="/"> Dashboard</Link>
             </p>
-            /<p style={{ color: "white" }}>Tree View</p>
+            /<p style={{ color: "black" }}>Tree View</p>
           </Breadcrumbs>
         </div>
 

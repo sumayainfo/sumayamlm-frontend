@@ -438,14 +438,14 @@ body {
   /* height: 250px; */
   align-items: center;
   justify-content: center;
-  background: black;
+  background: white;
   border-radius: 16px;
   position: relative;
   padding: 0px;
   margin: 20px;
-  -webkit-box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
-  -moz-box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
-  box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
+  -webkit-box-shadow: 0px 0px 7px 0px rgb(49, 48, 49);
+  -moz-box-shadow: 0px 0px 7px 0px rgb(49, 48, 49);
+  box-shadow:0px 0px 7px 0px rgb(49, 48, 49);
 }
 
 .welcm-msg-right {
@@ -530,7 +530,7 @@ body {
 }
 
 .theme-card {
-  background-color: var(--background-black);
+  background-color: var(--text-color-white);
   color: var(--primary-color);
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   background-image: none;
@@ -631,17 +631,17 @@ body {
 
 .main-table-card {
   margin: 30px 0px;
-  -webkit-box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
-  -moz-box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
-  box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
+  -webkit-box-shadow: 0px 0px 7px 0px rgb(49, 48, 49);
+  -moz-box-shadow: 0px 0px 7px 0px rgb(49, 48, 49);
+  box-shadow: 0px 0px 7px 0px rgb(49, 48, 49);
   border-radius: 10px;
 }
 
 .main-table-card-mini {
   margin: 0px 0px;
-  -webkit-box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
-  -moz-box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
-  box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
+  -webkit-box-shadow: 0px 0px 7px 0px rgb(49, 48, 49);
+  -moz-box-shadow: 0px 0px 7px 0px rgb(49, 48, 49);
+  box-shadow: 0px 0px 7px 0px rgb(49, 48, 49);
   border-radius: 10px;
 }
 
@@ -660,7 +660,7 @@ body {
 }
 
 .css-1q1u3t4-MuiTableRow-root {
-  border-top: 1px solid var(--text-color-white) !important;
+  border-top: 1px solid var(--text-color) !important;
   border-bottom: none !important;
 }
 
@@ -680,7 +680,6 @@ body {
   font-size: 0.875rem !important;
   font-weight: 500 !important;
   white-space: nowrap;
-  color: var(--text-color-white) !important;
   border: none !important;
 }
 

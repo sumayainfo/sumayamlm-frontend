@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import menuItems from "./menu-items";
 import { useState, useEffect } from "react";
 import Logo from "../assets/images/logo.png";
-import Logo2 from "../assets/images/logosort.png";
+import Logo2 from "../assets/images/logo.png";
 import { useContext } from "react";
 import { ThemeContext } from "./ThemeContext";
 import { useSelector } from "react-redux";

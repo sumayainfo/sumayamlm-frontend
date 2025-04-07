@@ -120,18 +120,18 @@ const MyDirectView = () => {
                         <Icon className="icon-green" icon="tabler:home-filled" style={{ fontSize: "20px", marginBottom: "7px" }} />
                         <Link to="/"> Dashboard</Link>
                     </p>
-                    /<p style={{ color: "white" }}>My Direct Sponsored</p>
+                    /<p style={{ color: "black" }}>My Direct Sponsored</p>
                 </Breadcrumbs>
             </div>
 
             <Box style={{ width: "100%", display: "flex", justifyContent: "flex-start", flexWrap: "wrap", gap: "20px", marginTop: "20px" }}>
-                <Box className="main-table-card-mini" style={{ width: isMobile ? "100%" : "30%", color: "white", padding: "20px", Margin: isMobile ? "10px 0" : "10px 0" }}>
+                <Box className="main-table-card-mini" style={{ width: isMobile ? "100%" : "30%", color: "black", padding: "20px", Margin: isMobile ? "10px 0" : "10px 0" }}>
                     <Typography variant="h5">Your Direct Sponsored</Typography>
                     <Typography variant="body1"><strong>Left Side:</strong> {leftCount}</Typography>
                     <Typography variant="body1"><strong>Right Side:</strong> {rightCount}</Typography>
                 </Box>
 
-                <Box className="main-table-card-mini" style={{ width: isMobile ? "100%" : "30%", color: "white", padding: "20px", }}>
+                <Box className="main-table-card-mini" style={{ width: isMobile ? "100%" : "30%", color: "black", padding: "20px", }}>
                     <Typography variant="h5">Total Members in Each Leg</Typography>
                     <Typography variant="body1"><strong>Total Left Leg:</strong> {totalLeftCount}</Typography>
                     <Typography variant="body1"><strong>Total Right Leg:</strong> {totalRightCount}</Typography>
