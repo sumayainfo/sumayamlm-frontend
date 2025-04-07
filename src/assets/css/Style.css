@@ -36,7 +36,6 @@ body {
 .copy-right {
   text-align: center;
   padding-bottom: 10px;
-  color: #000;
   margin: 0px;
   color: var(--primary-color);
   position: fixed;
@@ -106,7 +105,7 @@ body {
   width: 94%;
   background-color: var(--primary-color);
   backdrop-filter: blur(6px);
-  height: 50px;
+  height: 52px;
   box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px,
     rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
   transition: width .1s ease;
@@ -1128,23 +1127,25 @@ body {
   border-radius: 10px;
   color: var(--text-color-white) !important;
   padding: 10px;
-  -webkit-box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
-  -moz-box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
-  box-shadow: 0px 0px 7px 0px rgba(247, 239, 247, 1);
+  -webkit-box-shadow:0px 0px 7px 0px rgb(49, 48, 49);
+  -moz-box-shadow: 0px 0px 7px 0px rgb(49, 48, 49);
+  box-shadow: 0px 0px 7px 0px rgb(49, 48, 49);
   position: relative;
 }
 
 .logo-img-card {
-  width: 190px;
+  width: 100%;
   position: absolute;
   top: 48px;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 .logo-img-card img {
-  width: 98%;
+  width: 40%;
 }
 
 .profile-img {
@@ -1212,7 +1213,7 @@ body {
 }
 
 .card-profile-details2 {
-  color: white;
+  color: black;
   font-weight: 600;
   display: flex;
   justify-content: flex-start;
@@ -1332,9 +1333,9 @@ body {
   .logo-mobile2 {
     display: block;
     width: 120px;
-    height: auto;
+    height: 53px;
     margin-left: 53px;
-    background: black;
+    background: white;
     margin-top: -1px;
     padding: 5px 10px;
   }
@@ -1446,14 +1447,14 @@ body {
     flex: 0 0 auto;
     border-radius: 50%;
     overflow: visible;
-    color: var(--secondary-color);
+    color: black;
     font-size: 1.125rem;
     padding: 4px;
     position: fixed;
     z-index: 9999999;
     border: none;
     font-size: 40px;
-    backdrop-filter: blur(6px);
+    /* backdrop-filter: blur(6px); */
     background-color: transparent;
   }
 

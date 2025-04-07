@@ -26,14 +26,16 @@ const ForgotPassword = () => {
                         <div className="login-logo">
                             <img src={logo} alt="User" />
                             <h2> Forgot Password </h2>
-                            <p style={{ textAlign: "center" }}>Enter your UserName and we will send your reset password to the email registred with us.</p>
+                            <p style={{ textAlign: "center", color: "black" }}>Enter your UserName and we will send your reset password to the email registred with us.</p>
                         </div>
 
                         <div>
                             <Form onSubmit={handleSubmit}>
-                                <Form.Group controlId="formBasicEmail">
+                                <Form.Group id="email">
                                     <Form.Control
+                                        className="input-grp"
                                         type="email"
+                                        autoFocus
                                         placeholder="Enter your UserName"
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
@@ -63,8 +65,8 @@ const ForgotPassword = () => {
                                     </Button>
                                 )}
                             </Form>
-                            <p style={{ textAlign: "center", marginTop: "20px" }}>Or</p>
-                            <div style={{ textAlign: "center" }}>
+                            <p style={{ textAlign: "center", marginTop: "20px", color: "black" }}>Or</p>
+                            <div style={{ textAlign: "center", color: "black" }}>
                                 Back To
                                 <Link style={{ marginLeft: "5px", color: "var(--primary-color)" }} to="/">
                                     Login
@@ -75,7 +77,7 @@ const ForgotPassword = () => {
                     </div>
                 </div>
                 <hr />
-                <p className="copy-right">®Copyright @ {currentYear} Jeevan Income, All rights reserved.</p>
+                <p className="copy-right">®Copyright @ {currentYear} Sumaya Word Marketing, All rights reserved.</p>
             </div>
         </>
     );

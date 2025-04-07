@@ -65,7 +65,7 @@ const DashboardNavbar = () => {
       <div className="dashnavbar">
         <div className={`main-navbar ${showSidebar ? "show" : ""}`}>
           <div className="dash-top-nav">
-            <div style={{ backgroundColor: "black", zIndex: "11" }}>
+            <div style={{ backgroundColor: "white", zIndex: "11" }}>
               <button className="sidebar-close-btn" onClick={toggleSidebar}>
                 {showSidebar ? (
                   <Icon icon="solar:alt-arrow-left-linear" />
@@ -82,11 +82,11 @@ const DashboardNavbar = () => {
                 )}
               </button>
               <div className="logo-mobile2">
-                <img width={"100px"} height={"auto"} src={LogoMobile} alt="" />
+                <img width={"100px"} height={"auto"} style={{marginTop: "-8px"}} src={LogoMobile} alt="" />
               </div>
             </div>
 
-            <div style={{ display: "flex", alignItems: "center", height: "50px" }}>
+            <div style={{ display: "flex", alignItems: "center", height: "52px" }}>
               <p className="login-time">Last Login: 22-Jan-2025 05:37:42</p>
               <span className="topnavbar-name">
                 Hi.! {user?.fullName}

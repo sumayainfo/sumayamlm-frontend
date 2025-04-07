@@ -21,7 +21,7 @@
 .left-login-box {
   width: 50%;
   background: white;
-  padding: 45px 75px;
+  padding: 20px 55px;
   border-radius: 25px 25px 25px 25px;
   -webkit-box-shadow: 0px 0px 16px 7px rgba(230, 228, 228, 0.432);
   -moz-box-shadow: 0px 0px 16px 7px rgba(230, 228, 228, 0.432);
@@ -35,13 +35,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .login-logo img {
   width: 200px;
   height: auto;
-  margin-bottom: 20px
+  margin-bottom: 0px
 }
 
 .left-login-box h2 {
@@ -50,19 +50,19 @@
   font-style: normal;
   text-align: center;
   font-size: 40px;
-  color: #afe836;
+  color: #ff6c00;
 }
 
-.form-control {
+/* .form-control {
   font-size: 13px;
   margin-bottom: 10px;
   padding: 10px;
-  /* font-family: "Varela Round", sans-serif; */
+  font-family: "Varela Round", sans-serif;
   font-weight: 500;
   border-radius: 40px !important;
   background-color: #ffffff !important;
   border: none !important;
-}
+} */
 
 .keep-me-logged {
   display: flex;
@@ -71,6 +71,7 @@
   font-weight: 600;
   font-size: 13px;
   margin-top: 10px;
+  color: black !important;
 }
 
 .login-btn {
@@ -99,6 +100,6 @@
   font-weight: 500;
   font-size: 13px;
   margin-top: 25px;
-  color: white !important;
+  color: black !important;
 }
 

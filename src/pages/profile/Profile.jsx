@@ -134,7 +134,7 @@ const Profile = () => {
                   <h3 className="profile-name">
                     {userDetails?.title + " " + userDetails?.fullName}{" "}
                   </h3>
-                  <div className="profile-role">Diamond</div>
+                  <div className="profile-role">{userDetails?.rewardIncome?.levelName}</div>
                   <div className="cr-pro-details">
                     <p style={{ fontSize: "15px", fontWeight: "600" }}>
                       ID No : <span>{userDetails?.sponser_code}</span>
@@ -187,7 +187,7 @@ const Profile = () => {
                     marginTop: isMobile ? "20px" : "0px",
                   }}
                 >
-                  <h3 className="profile-name" style={{ color: "var(--text-color)" }}>
+                  <h3 className="profile-name">
                     {userDetails?.title + " " + userDetails?.fullName}{" "}
                   </h3>
                   <div className="cr-pro-details">
@@ -196,7 +196,6 @@ const Profile = () => {
                         fontSize: "15px",
                         fontWeight: "600",
                         marginBottom: isMobile ? "10px" : "0px",
-                        color: "var(--text-color)"
                       }}
                     >
                       ID No : <span>{userDetails?.sponser_code}</span>
@@ -204,7 +203,6 @@ const Profile = () => {
                         style={{
                           marginLeft: isMobile ? "10px" : "10px",
                           marginBottom: isMobile ? "10px" : "0px",
-                          color: "var(--text-color)"
                         }}
                       >
                         <button
@@ -224,10 +222,10 @@ const Profile = () => {
                         </button>
                       </span>
                     </p>
-                    <p style={{ fontSize: "15px", fontWeight: "600", color: "var(--text-color)" }}>
+                    <p style={{ fontSize: "15px", fontWeight: "600" }}>
                       Phone : <span>{userDetails?.phone}</span>
                     </p>
-                    <p style={{ fontSize: "15px", fontWeight: "600", color: "var(--text-color)" }}>
+                    <p style={{ fontSize: "15px", fontWeight: "600" }}>
                       Email : <span>{userDetails?.email}</span>
                     </p>
                   </div>

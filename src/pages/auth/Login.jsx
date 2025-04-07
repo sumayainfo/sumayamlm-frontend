@@ -69,7 +69,7 @@ const Login = () => {
                 <Form.Group id="email">
                   <Form.Label>Email</Form.Label>
                   <Form.Control
-                    className="input-grp"
+                    className="form-control"
                     autoFocus
                     required
                     type="email"
@@ -146,7 +146,7 @@ const Login = () => {
           </div>
         </div>
         <hr />
-        <p className="copy-right">®Copyright @ {currentYear} Jeevan Income, All rights reserved.</p>
+        <p className="copy-right">®Copyright @ {currentYear} Sumaya Word Marketing, All rights reserved.</p>
       </div>
     </>
   );

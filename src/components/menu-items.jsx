@@ -19,15 +19,15 @@ const menuItems = [
     ],
   },
 
-  {
-    title: "Buy Membership",
-    icon: <Icon icon="material-symbols:logout-rounded" width="25" height="25" />,
-    showTo: ["Admin", "User"],
-    subMenu: [
-      { title: "New Membership", url: "/buy-membership", icon: <Icon icon="lets-icons:user-circle" width="25"  height="25" /> },
-      { title: "Membership History", url: "/membership-history", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
-    ],
-  },
+  // {
+  //   title: "Buy Membership",
+  //   icon: <Icon icon="material-symbols:logout-rounded" width="25" height="25" />,
+  //   showTo: ["Admin", "User"],
+  //   subMenu: [
+  //     { title: "New Membership", url: "/buy-membership", icon: <Icon icon="lets-icons:user-circle" width="25"  height="25" /> },
+  //     { title: "Membership History", url: "/membership-history", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
+  //   ],
+  // },
 
   {
     title: "Active Membership",
@@ -49,22 +49,22 @@ const menuItems = [
   //   showTo: ["Super_Admin"],
   // },
 
-  {
-    title: "Withdrawal",
-    icon: <Icon icon="material-symbols:logout-rounded" width="25" height="25" />,
-    showTo: ["admin", "center"],
-    subMenu: [
-      { title: "Withdrawal", url: "/settings/profile", icon: <Icon icon="lets-icons:user-circle" width="25"  height="25" /> },
-      { title: "Withdrawal History", url: "/settings/security", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
-    ],
-  },
+  // {
+  //   title: "Withdrawal",
+  //   icon: <Icon icon="material-symbols:logout-rounded" width="25" height="25" />,
+  //   showTo: ["admin", "center"],
+  //   subMenu: [
+  //     { title: "Withdrawal", url: "/settings/profile", icon: <Icon icon="lets-icons:user-circle" width="25"  height="25" /> },
+  //     { title: "Withdrawal History", url: "/settings/security", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
+  //   ],
+  // },
 
-  {
-    title: "Withdrawal Request",
-    icon: <Icon icon="material-symbols:logout-rounded" width="25" height="25" />,
-    url: "/withdrawal-request-list",
-    showTo: ["Super_Admin"],
-  },
+  // {
+  //   title: "Withdrawal Request",
+  //   icon: <Icon icon="material-symbols:logout-rounded" width="25" height="25" />,
+  //   url: "/withdrawal-request-list",
+  //   showTo: ["Super_Admin"],
+  // },
 
   // {
   //   title: "All User List",
@@ -73,26 +73,26 @@ const menuItems = [
   //   showTo: ["Super_Admin"],
   // },
 
-  {
-    title: "Transaction Report",
-    url: "/parents-list",
-    icon: <Icon icon="material-symbols:logout-rounded" width="25" height="25" />,
-    showTo: ["Admin", "Super_Admin", "center"],
-  },
+  // {
+  //   title: "Transaction Report",
+  //   url: "/parents-list",
+  //   icon: <Icon icon="material-symbols:logout-rounded" width="25" height="25" />,
+  //   showTo: ["Admin", "Super_Admin", "center"],
+  // },
 
-  {
-    title: "Income Report",
-    icon: <Icon icon="material-symbols:logout-rounded" width="25" height="25" />,
-    showTo: ["Admin", "Super_Admin", "User"],
-    subMenu: [
-      { title: "AutoPull Income", url: "/auto-pull-income-report", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
-      // { title: "Single Leg Income", url: "/single-leg-income-report", icon: <Icon icon="lets-icons:user-circle" width="25"  height="25" /> },
-      { title: "Matching Income", url: "/settings/security", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
-      { title: "Salary Income", url: "/settings/security", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
-      { title: "Level & Reward Income", url: "/settings/security", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
-      { title: "Insurance Income", url: "/settings/security", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
-    ],
-  },
+  // {
+  //   title: "Income Report",
+  //   icon: <Icon icon="material-symbols:logout-rounded" width="25" height="25" />,
+  //   showTo: ["Admin", "Super_Admin", "User"],
+  //   subMenu: [
+  //     { title: "AutoPull Income", url: "/auto-pull-income-report", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
+  //     // { title: "Single Leg Income", url: "/single-leg-income-report", icon: <Icon icon="lets-icons:user-circle" width="25"  height="25" /> },
+  //     { title: "Matching Income", url: "/settings/security", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
+  //     { title: "Salary Income", url: "/settings/security", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
+  //     { title: "Level & Reward Income", url: "/settings/security", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
+  //     { title: "Insurance Income", url: "/settings/security", icon: <Icon icon="lets-icons:lock" width="25"  height="25" /> },
+  //   ],
+  // },
 
 
   
